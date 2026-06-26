@@ -1,0 +1,15 @@
+# Do not track any file with one of the following extensions.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex*
+*.toc
+
+# Do not track the compiled pdfs.
+main.pdf
