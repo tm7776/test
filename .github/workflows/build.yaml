@@ -12,5 +12,7 @@ jobs:
       - name: Lade pdf hoch
         uses: actions/upload-artifact@v7
         with:
-          name: PDF
+          name: artifact
           path: main.pdf
+          overwrite: true
+          archive: false
